@@ -15,5 +15,7 @@ function nowServing(){
   if (katzDeliLine === 0){
     return `the line is empty`;
   }
-  if (
+  if (katzDeliLine > 0){
+    return katzDeliLine.shift()
+  }
 }
