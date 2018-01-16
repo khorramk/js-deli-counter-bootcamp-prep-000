@@ -12,7 +12,7 @@ function takeANumber(katzDeliLine, newPerson){
 }
 
 function nowServing(){
-  if (katzDeliLine.length=== 0){
+  if (katzDeliLine.length=== 0) 
     return `the line is empty`;
   }
   if (katzDeliLine > 0){
