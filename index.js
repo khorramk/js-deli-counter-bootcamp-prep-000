@@ -11,11 +11,13 @@ function takeANumber(katzDeliLine, newPerson){
   
 }
 
-function nowServing(){
+function nowServing(katzDeliLine){
   if (katzDeliLine.length=== 0){
-    return `the line is empty`;
+    return 'There is nobody waiting to be served!';
   }
   if (katzDeliLine > 0){
-    return katzDeliLine.shift();
+   
+    katzDeliLine.shift();
+    return `Currently serving ${katzDeliLine[0]}`;
   }
 }
