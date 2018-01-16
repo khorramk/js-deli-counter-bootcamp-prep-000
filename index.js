@@ -16,6 +16,6 @@ function nowServing(){
     return `the line is empty`;
   }
   if (katzDeliLine > 0){
-    return katzDeliLine.shift()
+    return katzDeliLine.shift();
   }
 }
